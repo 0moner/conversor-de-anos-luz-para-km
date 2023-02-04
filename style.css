@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    background-image: url("https://i.redd.it/nl8fczkpsbu31.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    text-align: center;
+    background-color: #000000;
+    
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    white-space: nowrap;
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-logo {
+    margin-bottom: 35px;
+    width: 200px;
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-size: 17px;
+    margin: none;
+    font-family: FreeMono, monospace;
+  }
+  
+  .results{
+    color: #ffffff;
+  }
+  
+  form {
+    text-align: center;
+    
+    justify-content: center;
+    white-space: nowrap;
+  }
+  
+  input, button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+    margin: 0 -5px 0 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+  
+  button .results{
+    flex-direction: column;
+  }
